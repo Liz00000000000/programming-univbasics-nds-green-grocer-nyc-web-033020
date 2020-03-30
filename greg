@@ -1,5 +1,6 @@
 def first_in_array(arr, el1, el2)
-  
+  arr.each do |element|
+  end
 end
 
 puts first_in_array(["a", "b", "c", "d"], "d", "b"); # => "b"
